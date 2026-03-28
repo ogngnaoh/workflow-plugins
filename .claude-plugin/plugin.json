@@ -8,7 +8,5 @@
   },
   "repository": "https://github.com/ogngnaoh/workflow-plugins",
   "license": "MIT",
-  "keywords": ["prompt-engineering", "devlog", "plugin-discovery", "safety"],
-  "skills": "./skills/",
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["prompt-engineering", "devlog", "plugin-discovery", "safety"]
 }
