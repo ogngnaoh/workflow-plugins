@@ -2,13 +2,17 @@
 name: workflow-automation-advisor
 description: >
   Recommend Claude Code automations (skills, hooks, agents, commands, MCP servers, plugins)
-  tailored to a described workflow or task. Use when a user describes a workflow they want to
-  optimize, asks "what automations would help with X", says "recommend automations for my
-  workflow", points at a file and asks what automations would help, mentions wanting to
-  streamline a repetitive process, or asks how to automate a specific task with Claude Code.
-  Also use when someone describes their daily routine and wants Claude Code to support it,
-  even if they don't mention "automations" explicitly. Do NOT use when the user wants to
-  analyze a codebase for recommendations — that's claude-automation-recommender.
+  tailored to a described workflow or task. Trigger when a user describes a workflow and asks
+  what automations would help, says "recommend automations for my workflow", "streamline my
+  process", "reduce friction in my workflow", "what hooks or skills should I set up for X",
+  or asks how to automate a specific task with Claude Code. Also trigger when someone points
+  at a config file (CI workflow, Makefile, package.json scripts) and asks what automations
+  would help, describes their daily routine and wants Claude Code to support it, or mentions
+  a repetitive multi-step process they want automated — even without saying "automations"
+  explicitly. Do NOT trigger when the user wants to analyze a codebase for recommendations
+  (that's claude-automation-recommender), wants to create/build a specific automation
+  (that's skill-development or hook-development), wants to browse available plugins (that's
+  plugin-scout), or is asking to learn how automations work rather than get recommendations.
 ---
 
 # Workflow Automation Advisor
